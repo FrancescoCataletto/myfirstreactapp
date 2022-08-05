@@ -1,8 +1,13 @@
 import React from 'react'
 
-function ItemDescription() {
+function ItemDescription({name, description}) {
   return (
-    <div>ItemDescription</div>
+    <div>
+        <p>{name}</p>
+        <p>
+            <i>{description}</i>
+        </p>
+    </div>
   )
 }
 
